@@ -1,0 +1,8 @@
+[app-todo-list] li {
+	margin-bottom: 10px;
+}
+
+[app-todo-list] li span {
+	display: inline-block;
+	width: 200px;
+}

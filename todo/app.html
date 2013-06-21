@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+	<head>
+		<title>Todo application</title>
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+
+		<script type="text/javascript" src="libs/jquery.js"></script>
+		<script type="text/javascript" src="libs/angular.js"></script>
+		<script type="text/javascript" src="libs/underscore-min.js"></script>
+		<script type="text/javascript" src="libs/underscore.string.min.js"></script>
+
+		<script type="text/javascript" src="angular/common.js"></script>
+
+		<script type="text/javascript" src="angular/services/utils.js"></script>
+		<script type="text/javascript" src="angular/directives/todoList.js"></script>
+		<script type="text/javascript" src="angular/services/todoService.js"></script>
+		<script type="text/javascript" src="angular/controllers/todoController.js"></script>
+
+		<script type="text/javascript" src="angular/app.js"></script>
+	</head>
+
+	<body>
+ 		<div class="container">
+
+			<div class="row">
+		
+				<div class="span12">
+					
+					<p>This is our todo application</p>
+
+					<div ng-view><!----></div>
+
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>

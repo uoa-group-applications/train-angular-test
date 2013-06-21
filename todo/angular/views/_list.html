@@ -1,0 +1,10 @@
+<form ng-submit="submitPressed()">
+	<p>List of todos:</p>
+	<ul>
+	    <li ng-repeat="item in items">
+	        <span>{{item.title}}</span> <a class="btn" ng-click="remove(item.id)">remove</a>
+	    </li>
+	</ul>
+
+	Add task: <input type="text" ng-model="task" /> <button class="btn">Add</button>
+</form>
